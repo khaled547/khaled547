@@ -1,0 +1,306 @@
+/* General Styles */
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #000000;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 20px;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00d4ff !important;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero .highlight {
+    color: #00d4ff;
+}
+
+.btn-group .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+.btn-primary {
+    background-color: #00d4ff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #008fb3;
+}
+
+.btn-secondary {
+    background-color: #333;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #555;
+}
+
+/* Hero Image */
+.hero-img {
+    display: block;
+    margin: 30px auto;
+    width: 250px;
+}
+
+/* Scroll Down Icon */
+.scroll-down {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.scroll-down span {
+    font-size: 2rem;
+    animation: bounce 1.5s infinite;
+}
+
+/* Scroll Animation */
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.hero-img{
+    width: 400;
+height: 472.6548767089844;
+top: 249px;
+left: 888px;
+border-width: 1.4px;
+
+}
+
+
+
+2nd page 
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #0f172a;
+    color: white;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.about-text h2 span {
+    color: #00bcd4; /* ব্লু রঙের জন্য */
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #cfd8dc;
+    margin-top: 10px;
+}
+
+.about-text strong {
+    color: white;
+    cursor: pointer;
+}
+
+.about-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+.about-section::before {
+    content: "";
+    background: url(./doodle\ items.png) no-repeat center/cover 
+    position: absolute
+    width: 100%:
+    height : 100% :
+}
+
+
+3rd page 
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #0f172a;
+    color: white;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-title span {
+    color: #00bcd4;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.filter-buttons .btn {
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.filter-buttons .btn.active, 
+.filter-buttons .btn:hover {
+    background-color: #00bcd4;
+}
+
+.portfolio-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 10px;
+} 
+
+
+4 page 
+
+/* Body Background Color */
+body {
+    background-color: #0d1117;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Section Padding */
+.contact-section {
+    padding: 80px 0;
+}
+
+/* Heading Style */
+.contact-heading {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #00c3ff;
+}
+
+/* Image Styling */
+.contact-image {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+/* Form Container */
+.contact-form {
+    background: #1c1f26;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 195, 255, 0.2);
+}
+
+/* Form Input Fields */
+.form-control {
+    background: #252a34;
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: 0 0 5px #00c3ff;
+}
+
+/* Message Box */
+.message-box {
+    min-height: 150px;
+}
+
+/* Send Button */
+.send-btn {
+    background-color: #00c3ff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.send-btn:hover {
+    background-color: #0095cc;
+}
